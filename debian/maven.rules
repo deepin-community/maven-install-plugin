@@ -17,6 +17,7 @@
 #   junit junit jar s/3\\..*/3.x/
 
 junit junit * s/.*/4.x/ * *
-org.apache.maven s/maven-project/maven-compat/ * s/.*/3.x/ * *
 org.apache.maven maven-* * s/.*/3.x/ * *
-s/org.apache.maven/org.apache.maven.shared/ s/maven-artifact-manager/maven-artifact-transfer/ * s/.*/debian/ * *
+org.apache.maven.plugins maven-plugins pom s/.*/debian/ * *
+
+s/org.eclipse.aether/org.apache.maven.resolver/ s/aether-(.*)/maven-resolver-$1/ * s/.*/debian/ * *

@@ -1,9 +1,24 @@
-maven-install-plugin (2.5.2-4.1) unstable; urgency=medium
+maven-install-plugin (3.1.1-1) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload.
+  * New upstream release
 
- -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:09:15 +0100
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 17 Jun 2023 11:51:56 +0200
+
+maven-install-plugin (3.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Removed the patches
+    - New dependency on libmockito-java
+    - Updated the maven-debian-helper rules
+  * Depend on libmaven-parent-java
+  * Standards-Version updated to 4.6.2
+  * Switch to debhelper level 13
+  * Use salsa.debian.org Vcs-* URLs
+  * Track and download the new releases from GitHub
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 09 Jan 2023 16:45:09 +0100
 
 maven-install-plugin (2.5.2-4) unstable; urgency=medium
 
