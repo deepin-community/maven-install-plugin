@@ -25,4 +25,4 @@
 #   --site-xml=<location>: Optional, the location for site.xml if it needs to be installed.
 #     Empty by default. [mh_install]
 #
-pom.xml --no-parent --has-package-version --relocate=org.apache.maven.plugins:maven-install-plugin:2.4
+pom.xml --has-package-version --relocate=org.apache.maven.plugins:maven-install-plugin:2.4
