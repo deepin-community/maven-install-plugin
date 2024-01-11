@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Maven Install Plugin
 Upstream-Contact: Apache Maven team
-Source: http://maven.apache.org
+Source: https://github.com/apache/maven-install-plugin
 
 Files: *
 Copyright: 2001-2009, The Apache Software Foundation.
